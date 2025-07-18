@@ -1,0 +1,13 @@
+Package: TARIF
+Title: Identify proteins trans-regulated by multiple groups of genetic variants.
+Version: 0.0.0.9000
+Authors@R: 
+    person("Debepsita", "Mukherjee", , "debepsitamukherjee@utexas.edu", role = c("aut", "cre"))
+    person("Diptavo", "Dutta", , "diptavo.dutta@nih.gov", role = c("aut", "cre"))
+    person("Indranil", "Sahoo", , "sahooi@vcu.edu", role = c("aut", "cre"))
+Description: We present a summary statistic-based method TARIF to identify proteins trans-regulated by multiple groups of genetic variants.  Using z-statistic for association between proteins and multiple groups of genetic variants, TARIF first performs a low-rank decomposition of the association matrix across multiple groups, as a sum of the shared effect sizes and group-specific effect sizes. Then it perform a sparse singular value decomposition to identify sets of proteins which exhibit strong contributions in the shared effects.  
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
